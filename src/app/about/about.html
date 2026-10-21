@@ -1,0 +1,28 @@
+<section id="about" class="about" aria-labelledby="about-heading">
+  <h2 id="about-heading">About me</h2>
+
+  <div class="intro">
+    <p class="name">{{ resume.name }}</p>
+    <p class="title">{{ resume.title }}</p>
+    <p class="location">{{ resume.location }}</p>
+  </div>
+
+  @for (paragraph of resume.about.summary; track $index) {
+    <p class="summary">{{ paragraph }}</p>
+  }
+
+  <ul class="highlights">
+    @for (item of resume.about.highlights; track item.label) {
+      <li>
+        <span class="value">{{ item.value }}</span>
+        <span class="label">{{ item.label }}</span>
+      </li>
+    }
+  </ul>
+
+  <p class="contact">
+    <a [href]="'mailto:' + resume.email">{{ resume.email }}</a>
+    ·
+    <a [href]="resume.linkedin" target="_blank" rel="noopener">LinkedIn</a>
+  </p>
+</section>

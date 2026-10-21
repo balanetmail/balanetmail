@@ -1,0 +1,21 @@
+{
+  "name": "Balamurugan Gopal",
+  "title": "Technical Project Manager | Delivery Manager | UI Architecture",
+  "location": "Bengaluru, Karnataka",
+  "email": "balanetmail@gmail.com",
+  "linkedin": "https://linkedin.com/in/balamurugangopal",
+  "about": {
+    "summary": [
+      "Technology delivery leader with 20 years of experience spanning front-end engineering, UI architecture and technical project delivery.",
+      "I currently manage 12 concurrent projects and 3–4 cross-functional teams (~35 people) at Genpact, owning sprint execution, release governance and stakeholder communication — including an AI-enabled application built on AWS Bedrock.",
+      "My focus is SDLC governance, Agile delivery, stakeholder management and AI-enabled application delivery."
+    ],
+    "highlights": [
+      { "value": "20", "label": "years in technology" },
+      { "value": "12", "label": "concurrent projects managed" },
+      { "value": "~35", "label": "people across 3–4 teams" },
+      { "value": "90%", "label": "fewer CI/CD & deploy failures" },
+      { "value": "99%", "label": "on-time delivery (3 projects)" }
+    ]
+  }
+}
