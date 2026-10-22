@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem;
+
+  a {
+    color: #2b2b33;
+    text-decoration: none;
+    font-weight: 600;
+
+    &.active {
+      color: #1f3a8a;
+      border-bottom: 2px solid #1f3a8a;
+    }
+  }
+}

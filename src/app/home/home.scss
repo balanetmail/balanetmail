@@ -1,0 +1,129 @@
+:host {
+  display: block;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  color: #2b2b33;
+  line-height: 1.6;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.75rem;
+  color: #1f3a8a;
+}
+
+h2 {
+  margin: 3rem 0 1rem;
+  font-size: 1.75rem;
+  color: #1f3a8a;
+  border-bottom: 2px solid #1f3a8a;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.title {
+  margin: 0.25rem 0 1rem;
+  font-weight: 600;
+}
+
+.lead {
+  font-size: 1.15rem;
+  margin: 0 0 1.5rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  background: #1f3a8a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+
+  &.secondary {
+    background: #e8edf8;
+    color: #1f3a8a;
+  }
+}
+
+.highlights ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.75rem;
+
+  li {
+    background: #e8edf8;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+.value {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f3a8a;
+}
+
+.label {
+  font-size: 0.875rem;
+}
+
+.chips {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  li {
+    background: #e8edf8;
+    color: #1f3a8a;
+    border-radius: 1rem;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+  }
+}
+
+article {
+  margin-bottom: 1.5rem;
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0.25rem 0 0;
+  }
+}
+
+.period {
+  color: #5c5c66;
+  font-size: 0.875rem;
+}
+
+.role {
+  font-weight: 600;
+}
