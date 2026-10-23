@@ -1,0 +1,75 @@
+:host {
+  display: block;
+}
+
+.about {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  color: #2b2b33;
+  line-height: 1.6;
+}
+
+h2 {
+  margin: 0 0 1.5rem;
+  font-size: 2rem;
+  color: #1f3a8a;
+  border-bottom: 2px solid #1f3a8a;
+  padding-bottom: 0.5rem;
+}
+
+.intro {
+  margin-bottom: 1.5rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.location {
+  color: #5c5c66;
+}
+
+.summary {
+  margin: 0 0 1rem;
+}
+
+.highlights {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.75rem;
+
+  li {
+    background: #e8edf8;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+.value {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f3a8a;
+}
+
+.label {
+  font-size: 0.875rem;
+}
+
+.contact a {
+  color: #1f3a8a;
+}

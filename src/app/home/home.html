@@ -1,0 +1,46 @@
+<section class="hero">
+  <h1>{{ resume.name }}</h1>
+  <p class="title">{{ resume.title }}</p>
+  <p class="lead">{{ resume.about.summary[0] }}</p>
+  <p class="actions">
+    <a routerLink="/about" class="button">About me</a>
+    <a [href]="'mailto:' + resume.email" class="button secondary">Get in touch</a>
+  </p>
+</section>
+
+<section class="highlights" aria-label="Key highlights">
+  <ul>
+    @for (item of resume.about.highlights; track item.label) {
+      <li>
+        <span class="value">{{ item.value }}</span>
+        <span class="label">{{ item.label }}</span>
+      </li>
+    }
+  </ul>
+</section>
+
+<section class="skills" aria-labelledby="skills-heading">
+  <h2 id="skills-heading">Core skills</h2>
+  @for (group of resume.skills; track group.group) {
+    <h3>{{ group.group }}</h3>
+    <ul class="chips">
+      @for (item of group.items; track item) {
+        <li>{{ item }}</li>
+      }
+    </ul>
+  }
+</section>
+
+<section class="experience" aria-labelledby="experience-heading">
+  <h2 id="experience-heading">Experience</h2>
+  @for (job of resume.experience; track job.company) {
+    <article>
+      <header>
+        <h3>{{ job.company }}</h3>
+        <span class="period">{{ job.period }}</span>
+      </header>
+      <p class="role">{{ job.role }}</p>
+      <p>{{ job.summary }}</p>
+    </article>
+  }
+</section>

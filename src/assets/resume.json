@@ -1,0 +1,71 @@
+{
+  "name": "Balamurugan Gopal",
+  "title": "Technical Project Manager | Delivery Manager | UI Architecture",
+  "location": "Bengaluru, Karnataka",
+  "email": "balanetmail@gmail.com",
+  "linkedin": "https://linkedin.com/in/balamurugangopal",
+  "about": {
+    "summary": [
+      "Technology delivery leader with 20 years of experience spanning front-end engineering, UI architecture and technical project delivery.",
+      "I currently manage 12 concurrent projects and 3–4 cross-functional teams (~35 people) at Genpact, owning sprint execution, release governance and stakeholder communication — including an AI-enabled application built on AWS Bedrock.",
+      "My focus is SDLC governance, Agile delivery, stakeholder management and AI-enabled application delivery."
+    ],
+    "highlights": [
+      { "value": "20", "label": "years in technology" },
+      { "value": "12", "label": "concurrent projects managed" },
+      { "value": "~35", "label": "people across 3–4 teams" },
+      { "value": "90%", "label": "fewer CI/CD & deploy failures" },
+      { "value": "99%", "label": "on-time delivery (3 projects)" }
+    ]
+  },
+  "skills": [
+    {
+      "group": "Delivery",
+      "items": ["Technical Project & Portfolio Management", "SDLC Governance", "Agile/Scrum", "Release & Change Management", "Risk Mitigation"]
+    },
+    {
+      "group": "Leadership",
+      "items": ["Stakeholder & Escalation Management", "Cross-Functional Coordination", "Mentoring", "Negotiation"]
+    },
+    {
+      "group": "Front-End & Architecture",
+      "items": ["Angular", "React", "TypeScript", "UI Architecture", "Solution Architecture"]
+    },
+    {
+      "group": "Cloud, DevOps & AI",
+      "items": ["Node.js", "AWS", "AWS Bedrock", "Microservices", "CI/CD", "Jenkins", "Claude", "ChatGPT"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Genpact Private Limited",
+      "role": "Senior Technical Lead / UI Architect / Technical Project Manager",
+      "period": "Jan 2024 – Present",
+      "summary": "Managing 12 concurrent projects and 3–4 cross-functional teams, including an AI-enabled application on AWS Bedrock."
+    },
+    {
+      "company": "Operative India Private Limited",
+      "role": "Principal Software Engineer",
+      "period": "Dec 2019 – Sep 2023",
+      "summary": "Cut integration and deployment failures by 90% and led application modernization while mentoring 14 engineers."
+    },
+    {
+      "company": "Alten Calsoft Labs Pvt. Ltd.",
+      "role": "Senior Technical Lead",
+      "period": "Jun 2013 – Nov 2019",
+      "summary": "Delivered 3 concurrent projects with 99% on-time delivery; migrated a legacy ExtJS app to Angular."
+    },
+    {
+      "company": "Sakhatech Information Systems Pvt. Ltd.",
+      "role": "Technical Lead",
+      "period": "May 2009 – Apr 2013",
+      "summary": "Led development and delivery of Massive Multiplayer Online Games."
+    },
+    {
+      "company": "Flip Design Pvt. Ltd.",
+      "role": "Senior Web Developer",
+      "period": "Aug 2006 – Apr 2009",
+      "summary": "Built web applications and Flash-based games for web and mobile."
+    }
+  ]
+}
