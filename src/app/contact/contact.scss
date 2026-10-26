@@ -1,0 +1,47 @@
+:host {
+  display: block;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  color: #2b2b33;
+  line-height: 1.6;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.25rem;
+  color: #1f3a8a;
+}
+
+.lead {
+  margin: 0.5rem 0 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+
+  li {
+    background: #e8edf8;
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    align-items: baseline;
+  }
+}
+
+.label {
+  min-width: 5rem;
+  font-weight: 600;
+  color: #5c5c66;
+}
+
+a {
+  color: #1f3a8a;
+  font-weight: 600;
+}
