@@ -18,11 +18,11 @@ describe('App', () => {
     expect(app).toBeTruthy();
   });
 
-  it('should render nav links to Home and About me', async () => {
+  it('should render nav links to Home, About me and Contact', async () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
     const links = Array.from(compiled.querySelectorAll('nav a')).map((a) => a.textContent?.trim());
-    expect(links).toEqual(['Home', 'About me']);
+    expect(links).toEqual(['Home', 'About me', 'Contact']);
   });
 });

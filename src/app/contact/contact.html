@@ -1,0 +1,15 @@
+<section class="contact" aria-labelledby="contact-heading">
+  <h1 id="contact-heading">Contact</h1>
+  <p class="lead">The best way to reach me is by phone or email.</p>
+
+  <ul>
+    <li>
+      <span class="label">Phone</span>
+      <a [href]="'tel:' + tel">{{ resume.contact.phone }}</a>
+    </li>
+    <li>
+      <span class="label">Email</span>
+      <a [href]="'mailto:' + resume.contact.email">{{ resume.contact.email }}</a>
+    </li>
+  </ul>
+</section>
